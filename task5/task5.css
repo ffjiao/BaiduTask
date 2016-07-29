@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-size: 14px;
+    width:100%;
+    background-color: #DEDEDE;
+}
+#header{
+    width:100%;
+    height:60px;
+    background:rgb(51,51,51);
+}
+#hContent{
+    margin-left:40px;
+    margin-right:20px;
+    line-height: 60px;
+}
+.nav{
+    font-size:12px;
+    float:right;
+}
+.nav li{
+    list-style: none;
+    display:inline;
+    margin-right:5px;
+}
+.nav li a{
+    color:#fff;
+    text-decoration: none;
+}
+#content{
+    padding:20px;
+}
+.sideBar{
+    width:360px;
+    float:right;
+    background:#fff;
+    padding:20px;
+}
+.sideTitle{
+    line-height: 40px;
+    border-left:3px solid #DEDEDE;
+    display:block;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left:10px;
+}
+.sideInfo{
+
+    padding:10px;
+}
+.group{
+    line-height:40px;
+    width:100%;
+    margin-bottom:20px;
+}
+.group_name{
+    width:33.3333%;
+    text-align: right;
+    float:left;
+}
+.group_value{
+    width:66.666666%;
+    float:left;
+}
+/*.tip{
+    margin-top:10px;
+    line-height: 20px;
+}*/
+.submit{
+    width:100%;
+    background-color: #3355D0;
+    -webkit-border-radius:1em;
+    -moz-border-radius:1em;
+    border-radius:1em;
+    color:#fff;
+    font-size: 14px;
+    font-weight:bold;
+    line-height: 40px;
+    text-align: center;
+}
+.text{
+    background: #fff;
+    padding:20px;
+    margin-right:430px;
+    margin-bottom:20px;
+}
+.text .title{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.text .font{
+    color:gray;
+}
+.text .fontsize{
+    font-size: 0.8em;
+}
+.passage{
+    line-height: 2em;
+    text-indent: 2em;
+}
+.text .img{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.text .list{
+    list-style-type: none;
+}
+.list li{
+    margin-bottom: 5px;
+}
+.pic{
+    border:1px solid lightgray;
+    float:left;
+    padding:10px;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+.pic img{
+    width:300px;
+    height:200px;
+    display:block;
+}
+.pic p{
+    text-align: center;
+    margin-bottom:10px;
+}
+.clearF:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.ol{
+    margin-left:40px;
+}
+.table{
+    width:100%;
+    border-collapse: collapse;
+}
+.table tr{
+    height:24px;
+}
+.table thead tr{
+    background-color:rgb(51,51,51);
+    text-align: left;
+    color: #ffffff;
+}
+.table tfoot{
+    font-weight: bold;
+    background-color:#CCC;
+}
+.last{
+    margin-bottom:0px;
+}
+#copyright{
+    width:100%;
+    height:70px;
+    background-color: #000;
+    color:#fff;
+    text-align: center;
+    line-height: 70px;
+}
+

@@ -1,0 +1,17 @@
+.left,.right{
+	height: 300px;
+	width:200px;
+}
+.right{
+	float: right;
+	background-color: red;
+}
+.left{
+	float:left;
+	background-color: blue;
+}
+.middle{
+	height:300px;
+	margin:0 200px;
+	background-color: green;
+}
